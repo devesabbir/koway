@@ -1,0 +1,212 @@
+@font-face {
+    font-family: "flaticon";
+    src: url("./flaticon.ttf?c2a1a655c83f67a761eb0c5593ec18f5") format("truetype"),
+url("./flaticon.woff?c2a1a655c83f67a761eb0c5593ec18f5") format("woff"),
+url("./flaticon.woff2?c2a1a655c83f67a761eb0c5593ec18f5") format("woff2"),
+url("./flaticon.eot?c2a1a655c83f67a761eb0c5593ec18f5#iefix") format("embedded-opentype"),
+url("./flaticon.svg?c2a1a655c83f67a761eb0c5593ec18f5#flaticon") format("svg");
+}
+
+i[class^="flaticon-"]:before, i[class*=" flaticon-"]:before {
+    font-family: flaticon !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.flaticon-arrival:before {
+    content: "\f101";
+}
+.flaticon-call-1:before {
+    content: "\f102";
+}
+.flaticon-call:before {
+    content: "\f103";
+}
+.flaticon-diamond-1:before {
+    content: "\f104";
+}
+.flaticon-diamond:before {
+    content: "\f105";
+}
+.flaticon-envelope:before {
+    content: "\f106";
+}
+.flaticon-facebook:before {
+    content: "\f107";
+}
+.flaticon-flag:before {
+    content: "\f108";
+}
+.flaticon-gps:before {
+    content: "\f109";
+}
+.flaticon-half-filled-rating-star:before {
+    content: "\f10a";
+}
+.flaticon-instagram-1:before {
+    content: "\f10b";
+}
+.flaticon-instagram-2:before {
+    content: "\f10c";
+}
+.flaticon-instagram:before {
+    content: "\f10d";
+}
+.flaticon-layers-1:before {
+    content: "\f10e";
+}
+.flaticon-layers:before {
+    content: "\f10f";
+}
+.flaticon-layout:before {
+    content: "\f110";
+}
+.flaticon-left-quote:before {
+    content: "\f111";
+}
+.flaticon-left-quotes-sign:before {
+    content: "\f112";
+}
+.flaticon-light-bolt:before {
+    content: "\f113";
+}
+.flaticon-linkedin-1:before {
+    content: "\f114";
+}
+.flaticon-linkedin-logo:before {
+    content: "\f115";
+}
+.flaticon-linkedin:before {
+    content: "\f116";
+}
+.flaticon-location-mark:before {
+    content: "\f117";
+}
+.flaticon-location:before {
+    content: "\f118";
+}
+.flaticon-mail:before {
+    content: "\f119";
+}
+.flaticon-map-marker:before {
+    content: "\f11a";
+}
+.flaticon-message:before {
+    content: "\f11b";
+}
+.flaticon-next-page:before {
+    content: "\f11c";
+}
+.flaticon-paintbrush:before {
+    content: "\f11d";
+}
+.flaticon-phone-call-1:before {
+    content: "\f11e";
+}
+.flaticon-phone-call-2:before {
+    content: "\f11f";
+}
+.flaticon-phone-call-3:before {
+    content: "\f120";
+}
+.flaticon-phone-call:before {
+    content: "\f121";
+}
+.flaticon-phone-numbers-call:before {
+    content: "\f122";
+}
+.flaticon-phone:before {
+    content: "\f123";
+}
+.flaticon-placeholder:before {
+    content: "\f124";
+}
+.flaticon-recycle-1:before {
+    content: "\f125";
+}
+.flaticon-recycle:before {
+    content: "\f126";
+}
+.flaticon-right-1:before {
+    content: "\f127";
+}
+.flaticon-right-arrow-1:before {
+    content: "\f128";
+}
+.flaticon-right-arrow-2:before {
+    content: "\f129";
+}
+.flaticon-right-arrow-3:before {
+    content: "\f12a";
+}
+.flaticon-right-arrow-circular-button-outline:before {
+    content: "\f12b";
+}
+.flaticon-right-arrow-from-a-circle:before {
+    content: "\f12c";
+}
+.flaticon-right-arrow:before {
+    content: "\f12d";
+}
+.flaticon-right-chevron-with-circle:before {
+    content: "\f12e";
+}
+.flaticon-right-quotation-sign:before {
+    content: "\f12f";
+}
+.flaticon-right-quote:before {
+    content: "\f130";
+}
+.flaticon-right:before {
+    content: "\f131";
+}
+.flaticon-rocket:before {
+    content: "\f132";
+}
+.flaticon-shuttle:before {
+    content: "\f133";
+}
+.flaticon-star-filled-fivepointed-shape:before {
+    content: "\f134";
+}
+.flaticon-star-half-filled-1:before {
+    content: "\f135";
+}
+.flaticon-star-half-filled:before {
+    content: "\f136";
+}
+.flaticon-sugar:before {
+    content: "\f137";
+}
+.flaticon-telephone-1:before {
+    content: "\f138";
+}
+.flaticon-telephone-2:before {
+    content: "\f139";
+}
+.flaticon-telephone:before {
+    content: "\f13a";
+}
+.flaticon-twitter-1:before {
+    content: "\f13b";
+}
+.flaticon-twitter-2:before {
+    content: "\f13c";
+}
+.flaticon-twitter-3:before {
+    content: "\f13d";
+}
+.flaticon-twitter:before {
+    content: "\f13e";
+}
+.flaticon-youtube-1:before {
+    content: "\f13f";
+}
+.flaticon-youtube:before {
+    content: "\f140";
+}

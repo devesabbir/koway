@@ -1,0 +1,121 @@
+$flaticon-font: "flaticon";
+
+@font-face {
+    font-family: $flaticon-font;
+    src: url("./flaticon.ttf?19862fc2fa1a5e2731fc14a9f2d800d8") format("truetype"),
+url("./flaticon.woff?19862fc2fa1a5e2731fc14a9f2d800d8") format("woff"),
+url("./flaticon.woff2?19862fc2fa1a5e2731fc14a9f2d800d8") format("woff2"),
+url("./flaticon.eot?19862fc2fa1a5e2731fc14a9f2d800d8#iefix") format("embedded-opentype"),
+url("./flaticon.svg?19862fc2fa1a5e2731fc14a9f2d800d8#flaticon") format("svg");
+}
+
+i[class^="flaticon-"]:before, i[class*=" flaticon-"]:before {
+    font-family: flaticon !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+$flaticon-map: (
+    "agriculture": "\f101",
+    "apps": "\f102",
+    "checked": "\f103",
+    "device": "\f104",
+    "diamond": "\f105",
+    "door-key": "\f106",
+    "guarantee": "\f107",
+    "idea": "\f108",
+    "layers": "\f109",
+    "loan-1": "\f10a",
+    "loan-2": "\f10b",
+    "loan": "\f10c",
+    "personal": "\f10d",
+    "raspberry": "\f10e",
+    "recycle-1": "\f10f",
+    "recycle": "\f110",
+    "reliability": "\f111",
+    "responsibility": "\f112",
+    "scholarship": "\f113",
+    "speed": "\f114",
+    "sugar-cube": "\f115",
+    "talent": "\f116",
+    "telephone": "\f117",
+    "user-experience": "\f118",
+);
+
+.flaticon-agriculture:before {
+    content: map-get($flaticon-map, "agriculture");
+}
+.flaticon-apps:before {
+    content: map-get($flaticon-map, "apps");
+}
+.flaticon-checked:before {
+    content: map-get($flaticon-map, "checked");
+}
+.flaticon-device:before {
+    content: map-get($flaticon-map, "device");
+}
+.flaticon-diamond:before {
+    content: map-get($flaticon-map, "diamond");
+}
+.flaticon-door-key:before {
+    content: map-get($flaticon-map, "door-key");
+}
+.flaticon-guarantee:before {
+    content: map-get($flaticon-map, "guarantee");
+}
+.flaticon-idea:before {
+    content: map-get($flaticon-map, "idea");
+}
+.flaticon-layers:before {
+    content: map-get($flaticon-map, "layers");
+}
+.flaticon-loan-1:before {
+    content: map-get($flaticon-map, "loan-1");
+}
+.flaticon-loan-2:before {
+    content: map-get($flaticon-map, "loan-2");
+}
+.flaticon-loan:before {
+    content: map-get($flaticon-map, "loan");
+}
+.flaticon-personal:before {
+    content: map-get($flaticon-map, "personal");
+}
+.flaticon-raspberry:before {
+    content: map-get($flaticon-map, "raspberry");
+}
+.flaticon-recycle-1:before {
+    content: map-get($flaticon-map, "recycle-1");
+}
+.flaticon-recycle:before {
+    content: map-get($flaticon-map, "recycle");
+}
+.flaticon-reliability:before {
+    content: map-get($flaticon-map, "reliability");
+}
+.flaticon-responsibility:before {
+    content: map-get($flaticon-map, "responsibility");
+}
+.flaticon-scholarship:before {
+    content: map-get($flaticon-map, "scholarship");
+}
+.flaticon-speed:before {
+    content: map-get($flaticon-map, "speed");
+}
+.flaticon-sugar-cube:before {
+    content: map-get($flaticon-map, "sugar-cube");
+}
+.flaticon-talent:before {
+    content: map-get($flaticon-map, "talent");
+}
+.flaticon-telephone:before {
+    content: map-get($flaticon-map, "telephone");
+}
+.flaticon-user-experience:before {
+    content: map-get($flaticon-map, "user-experience");
+}
