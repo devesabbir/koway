@@ -148,6 +148,7 @@ p {
     z-index: 1000;
     border: 2px solid #fff;
     line-height: 55px;
+    outline: none;
 }
 
 #button::after {
@@ -313,7 +314,7 @@ header .slide-content .slide-btn a:hover span {
 
 header .slide-img {
     position: absolute;
-    top: 130px;
+    top: 180px;
     right: 80px;
     z-index: 1;
 }
@@ -751,11 +752,25 @@ header img.shape-one {
     padding-top: 120px;
 }
 
-.pricing-area .pricing-title h5 {color: #0071dc;line-height: 1.1;font-weight: 500;display: inline-block;margin-bottom: 25px;}
+.pricing-area .pricing-title h5 {
+    color: #0071dc;
+    line-height: 1.1;
+    font-weight: 500;
+    display: inline-block;
+    margin-bottom: 25px;
+}
 
-.pricing-area .pricing-title h2 {color: #161c2d;font-size: 48px;line-height: 1.1;font-weight: 700;letter-spacing: -0.3px;}
+.pricing-area .pricing-title h2 {
+    color: #161c2d;
+    font-size: 48px;
+    line-height: 1.1;
+    font-weight: 700;
+    letter-spacing: -0.3px;
+}
 
-.pricing-area .pricing-title p {margin: 30px 0;}
+.pricing-area .pricing-title p {
+    margin: 30px 0;
+}
 
 .pricing-area .form {}
 
@@ -819,8 +834,8 @@ header img.shape-one {
 
 .pricing-area .firstwindow .bg .popu {
     position: absolute;
-    top: 0;
-    right: -11px;
+    top: -34px;
+    right: -55px;
     transform: rotate(-90deg);
     background: #ffc221;
     padding: 9px 15px;
@@ -842,7 +857,21 @@ header img.shape-one {
 
 .pricing-area .firstwindow .pricing-box .box-title {
     text-align: center;
+    position: relative;
 }
+
+.pricing-area .firstwindow .pricing-box .box-title::after {
+    content: '';
+    width: 100%;
+    height: 0;
+    border-bottom: 1px solid #dddddd78;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+
+
+}
+
 
 .pricing-area .firstwindow .bg .box-title h3 {
     color: #ececec;
@@ -854,6 +883,7 @@ header img.shape-one {
     letter-spacing: -0.3px;
     transition: .5s;
 }
+
 
 .pricing-area .firstwindow .hvr:hover h3 {
     color: #fff;
@@ -869,6 +899,9 @@ header img.shape-one {
     transition: .5s;
 }
 
+.hvr .box-title h2 {
+    margin-top: 22px;
+}
 
 
 .pricing-area .firstwindow .bg .box-title h2 {
@@ -911,7 +944,7 @@ header img.shape-one {
 .pricing-area .firstwindow .pricing-box ul li {
     font-size: 14px;
     padding-left: 71px;
-    margin: 25px 0;
+    margin: 32px 0;
     position: relative;
 }
 
@@ -986,6 +1019,8 @@ header img.shape-one {
 
 
 
+
+
 .pricing-area .firstwindow .pricing-box a span {
     transform: translateX(20%);
     display: inline-block;
@@ -1043,6 +1078,19 @@ header img.shape-one {
     padding: 20px 30px;
 }
 
+
+.newsletter .newsletter-title .news-form form input[type="email"]::placeholder {
+    font-size: 20px;
+    transition: .4s;
+    color: #0071dc;
+}
+
+.newsletter .newsletter-title .news-form form input[type="email"]:focus::placeholder {
+
+    font-size: 10px;
+    color: gray;
+}
+
 .newsletter .newsletter-title .news-form form a {
     position: absolute;
     top: 14px;
@@ -1052,9 +1100,197 @@ header img.shape-one {
 }
 
 .newsletter .newsletter-title .news-form form a span {
-      left: 170px;
+    left: 170px;
 }
 
-.newsletter .newsletter-title .news-form form a:hover span{
-      left: 180px;
+.newsletter .newsletter-title .news-form form a:hover span {
+    left: 180px;
 }
+
+
+
+
+
+footer {
+    padding-top: 100px;
+}
+
+footer h5 {}
+
+footer .footer-logo-area {margin-bottom: 100px;}
+
+footer .footer-logo-area .logo {}
+
+footer .footer-logo-area .logo a {}
+
+footer .footer-logo-area .logo a img {}
+
+footer .footer-logo-area p {
+    margin: 31px 0;
+    width: 64%;
+}
+
+footer .footer-logo-area ul {
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+footer .footer-logo-area ul li {
+    margin: 0 6px;
+}
+
+footer .footer-logo-area ul li a {
+    display: inline-block;
+    font-size: 16px;
+}
+
+footer .footer-logo-area ul li:nth-child(1) a {
+    color: #0676e8;
+}
+
+footer .footer-logo-area ul li:nth-child(2) a {
+    color: #1da1f2;
+}
+
+footer .footer-logo-area ul li:nth-child(3) a {
+    color: #ff0101;
+}
+
+footer .footer-logo-area ul li:nth-child(4) a {
+    color: #0a66c2;
+}
+
+
+
+footer .footer-list {}
+
+footer .footer-list h5 {
+    color: #161c2d;
+    font-size: 19px;
+    line-height: 1;
+    margin-bottom: 25px;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+footer .footer-list ul {
+    padding: 0;
+}
+
+footer .footer-list ul li {
+    margin-bottom: 8px;
+    position: relative;
+}
+
+footer .footer-list ul li::before{
+    content: '\f105';
+    font-family: "Font Awesome 5 Free";
+    font-weight: 600;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 1;
+    visibility: hidden;
+   
+
+    color: #7a7a7a;
+}
+
+
+footer .footer-list ul li:hover::before{
+     opacity: 1;
+     visibility: visible;
+     color: #0071dc;
+}
+
+
+footer .footer-list ul li:hover a{
+       padding-left: 20px;
+       color: #0071dc;
+}
+
+
+
+footer .footer-list ul li a {
+    display:inline-block ;
+    transition: .4s;
+    color: #7a7a7a;
+}
+
+
+
+
+
+
+footer .footer-widgets {
+    padding: 30px;
+    padding-top: 0;
+}
+
+footer .footer-widgets h5 {}
+
+footer .footer-widgets .widgets {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 23px;
+}
+
+footer .footer-widgets .widgets .img-wd {
+    flex: 1 1 33%;
+}
+
+footer .footer-widgets .widgets .img-wd a {
+    display: block;
+    position: relative;
+    margin-bottom: 7px;
+    margin-right: 7px;
+}
+
+footer .footer-widgets .widgets .img-wd a::before {
+    content: '';
+    width: 100%;
+    height: 100%;
+    background-color: #11111191;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+    transform: scale(0);
+    transition: .4s;
+}
+
+
+footer .footer-widgets .widgets .img-wd a:hover::before {
+    transform: scale(1);
+}
+
+footer .footer-widgets .widgets .img-wd a img {
+    width: 100%;
+}
+
+footer .footer-widgets .widgets .img-wd a span {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    text-align: center;
+    transform: translate(-50%, -50%);
+    display: inline-block;
+    font-size: 20px;
+    color: #fff;
+    opacity: 0;
+    visibility: hidden;
+    transition: .4s;
+}
+
+
+footer .footer-widgets .widgets .img-wd a:hover span {
+    opacity: 1;
+    visibility: visible;
+
+}
+
+
+footer .footer-bottom{padding: 30px 0;border-top: 1px solid #7a7a7a52;}
+footer .footer-bottom p{margin: 0;}
