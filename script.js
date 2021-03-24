@@ -14,6 +14,36 @@ $('html, body').animate({scrollTop:0}, '300');
  });
 
 
+
+
+// NAV
+
+
+        $(document).ready(function(){
+            $(window).scroll(function(){
+                if($(this).scrollTop() > 100){
+                    $('#navtwo').fadeIn();
+                }else{
+                    $('#navtwo').fadeOut()
+                }
+            });
+            $('#navtwo').scroll(function(){
+                $('html, body').animate({
+                    scrollTop:0
+                }, 3000);
+            });
+        });
+ 
+
+
+
+
+
+
+// NAV
+
+
+
 // Counter
 
 

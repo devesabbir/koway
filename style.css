@@ -114,7 +114,7 @@ p {
 }
 
 .main-btn:hover {
-    color: #fff;
+    color: #fff  !important;
 
 }
 
@@ -192,6 +192,43 @@ p {
     opacity: 1;
     visibility: visible;
 }
+
+
+
+
+.navone{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background: transparent;
+   
+    width: 100%;
+    position: relative;
+}
+
+
+#navtwo{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: none;
+    background: #fff !important;
+    z-index: 999;
+
+}
+
+
+.headerbtn{
+    background: #0071dc !important;
+    color: #fff !important;
+    
+}
+
+
+
+
 
 
 
@@ -439,11 +476,37 @@ header img.shape-one {
 
 .problems-area .problems-img {}
 
-.problems-area .problems-img img {}
+.problems-area .problems-img img {
+
+      animation-name: up-down;
+      animation-duration: 5s;
+      animation-timing-function: linear;
+      animation-iteration-count: infinite;
+      animation-direction: alternate-reverse;
+}
 
 .problems-area .problems-content {
     padding-top: 30px;
 }
+
+
+@keyframes up-down{
+      0%{
+          transform: translateY(-5%);
+
+      }
+
+      50%{
+              transform: translateY(0);
+      }
+
+      100%{
+           transform: translateY(5%);
+      }
+}
+
+
+
 
 .problems-area .problems-content h5 {
     color: #2869f9;
@@ -1086,9 +1149,7 @@ header img.shape-one {
 }
 
 .newsletter .newsletter-title .news-form form input[type="email"]:focus::placeholder {
-
-    font-size: 10px;
-    color: gray;
+font-size: 8px;
 }
 
 .newsletter .newsletter-title .news-form form a {
